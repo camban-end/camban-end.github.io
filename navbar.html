@@ -1,11 +1,17 @@
+
 <!DOCTYPE html>
 <html>
+  
+  {% extends 'index.html' %}
+
+  {% block content %}
+  
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
@@ -46,6 +52,8 @@ body {
   <h2>Top Navigation Example</h2>
   <p>Some content..</p>
 </div>
+
+  {% endblock content %}
 
 </body>
 </html>
