@@ -34,7 +34,7 @@ body{
   background-image: url(/images/window-bg.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 800px 750px;
+  background-size: 800px 800px;
   padding: 25px;
   grid-gap: 4px 15px;
   grid-template-columns: repeat(5,1fr);
