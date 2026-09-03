@@ -45,6 +45,7 @@ header{
   grid-area: 1 / 1 / 2 / 6;
   margin-top: 0px;
   margin-left: 2.5px;
+  margin-bottom: 10px;
   border-radius: 10px;
   border: 2px transparent;
   background-size: 745px 70px;
