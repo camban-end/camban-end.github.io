@@ -31,6 +31,7 @@ body{
   margin-top: 50px;
   max-width: 1000px;
   display: grid; 
+  box-sizing: border-box;
   background-image: url(/images/window-bg.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
