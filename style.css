@@ -26,15 +26,16 @@ body{
 
 .container{
   position: relative;
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   max-width: 1000px;
   display: grid; 
-  background-image: url(/images/window-bg.png);
+  background-image: url(/assets/window-bg.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 800px 780px;
+  background-size: 790px 780px;
   padding: 20px;
   grid-gap: 4px 15px;
   grid-template-columns: repeat(6,1fr);
@@ -62,8 +63,8 @@ nav{
   border: #A47251 3px solid;
   background-color: #A47251;
   grid-area: 3 / 1 / 4 / 7;
-  height: max-content;
-  width: 743px;
+  height: 64px;
+  width: 760px;
   margin-top: 10px
   margin-left: 1.5px;
   margin-right: 2px;
